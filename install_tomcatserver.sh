@@ -20,7 +20,3 @@ rm apache-tomcat-9.0.85.tar.gz
 
 #replacing tomactfolder name
 mv apache-tomcat-9.0.85.tar.gz/ tomcat9
-
-cd /tomcat9/bin
-
- ./startup.sh
