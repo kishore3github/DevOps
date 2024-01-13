@@ -12,3 +12,4 @@ free -m
 
 #below command will print the Disk memory only
 free -m | awk 'NR==2{print $4,"MB(Megabytes)"}'
+
