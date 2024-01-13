@@ -3,7 +3,7 @@
 
 first create the shell script file and give the permission to it.
 
-TO create file:
+To create file:
 
 `vi <filename>
 
@@ -14,11 +14,11 @@ To  provide execute permissions:
 By deafault all system commands are stored in bin location `/usr/bin/`. so if we stored our file in this location , then we can execute the file as system command,
 but the file will stored as a temporary. Once we exit and re-entered the terminal we can't execute the file. To do this please follow the below procedure:
 
-move the `freem.sh` file to the `/usr/bin`
+move the  file to the `/usr/bin`
 
-`sudo mv <current/path/ofthe/flie/freemsh /usr/bin` 
+`sudo mv <current/path/ofthe/flie/><filename> /usr/bin` 
 
-Now execute the freem.sh command from any path
+Now execute the freem.sh(filename) command from any path
 
 `freem.sh`
 
