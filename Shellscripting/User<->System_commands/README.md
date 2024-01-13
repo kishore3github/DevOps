@@ -5,7 +5,7 @@ first create the shell script file and give the permission to it.
 
 To create file:
 
-`vi <filename>
+`vi <filename>`
 
 To  provide execute permissions:
 
