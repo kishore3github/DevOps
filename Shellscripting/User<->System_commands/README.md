@@ -1,5 +1,5 @@
 # To execute the shell script as a system command 
-# To run a user command as System commands.
+# or To run a user command as System commands.
 
 first create the shell script file and give the permission to it.
 
@@ -18,10 +18,27 @@ move the `freem.sh` file to the `/usr/bin`
 
 `sudo mv <current/path/ofthe/flie/freemsh /usr/bin` 
 
-Now execute the freem.sh command from anywhere 
+Now execute the freem.sh command from any path
 
 `freem.sh`
 
 To make usercommands as system command permanently, we need to create the new path and place the file in it. and then export the file path as system path
 
-`export `
+create usercmnds directory
+
+`mkdir usercmds`
+
+`cd usercmds`
+
+create bin folder in usercmnds directory
+`mkdir bin`
+
+move freem file to /usercmds/bin folder
+
+`sudo mv <current/file/path>file /home/ec2-user/usercmds/bin`
+
+export file path to the system path
+
+`export PATH=${PATH}:/home/ec2-user/usercmds/bin `
+
+Try to exit from the session and rejoin. Now you are able to execute the user commands as a system command.
