@@ -37,3 +37,11 @@ echo '$x'   #output =$x (better to use double quotes while printing the variable
 name="kishore Kumar"   #correctone
 name=kishore kumar    #invalid
 
+######################################
+##Systyem define variables: which are defined by system  and which are represented in capital letters
+echo $USER    #to get the user details
+echo $OSTYPE
+env          #to list all the system or env variables 
+
+
+echo $?  --> to get the status of pervious execute command
