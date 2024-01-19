@@ -1,0 +1,25 @@
+#1/bin/bash
+
+#This is used to add two number
+<<mycom
+cmd_line_args=$#
+
+if [ $cmd_line_args -eq 2 ]
+
+then
+  x=$1
+  y=$2
+
+  result=$((x+y))
+
+  echo "The addiitionn of $x snd $y is : $result"
+fi
+mycom
+
+if false
+then
+echo "Hi welcome to decision control statements"
+fi
+
+
+echo "Now we are using if conditions"
