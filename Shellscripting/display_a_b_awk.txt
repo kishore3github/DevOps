@@ -1,0 +1,17 @@
+#!/bin/awk -f 
+
+BEGIN {
+  print "finding a and b values for ab.txt}
+}
+{
+a=$1
+b=$2
+print "a="a, "b="b
+}
+2 6
+5 6
+END{
+  print "completed reading a and b values"
+}
+
+# To execute this script ./display_a_b_awk.txt
